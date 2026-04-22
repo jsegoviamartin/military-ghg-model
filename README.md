@@ -31,27 +31,8 @@ python plot_share_fig_2_and_fig_s2.py
 python plot_cumulative_fig_3_and_fig_s3.py
 python plot_efficiency_fig_4.py
 python plot_budget_fig_5_and_fig_s5.py
-python plot_pathways_fig_6.py
+python plot_pathways_fig_6.py 
 ```
+`plot_pathways_fig_6.py` also requires the file `1668008312256-AR6_Scenarios_Database_World_v1.1.csv.zip`, which should be downloaded from the **AR6 Scenario Explorer and Database** hosted by IIASA: https://data.ene.iiasa.ac.at/ar6/
 
-## External data needed for Fig. 6
-
-`plot_pathways_fig_6.py` also requires the file:
-
-`1668008312256-AR6_Scenarios_Database_World_v1.1.csv.zip`
-
-This file should be downloaded from the **AR6 Scenario Explorer and Database** hosted by IIASA:
-
-https://data.ene.iiasa.ac.at/ar6/
-
-Background and documentation page:
-
-https://data.ene.iiasa.ac.at/ar6/static/About.html
-
-Place the downloaded zip file in the same directory as `plot_pathways_fig_6.py`.
-
-## Notes
-
-- The plotting scripts expect the generated CSV files to be in the same folder.
-- Fig. 6 uses selected AR6 SSP reference pathways and AR6 climate-category metadata from the IIASA AR6 database.
 
