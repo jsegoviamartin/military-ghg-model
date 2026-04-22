@@ -1,17 +1,16 @@
 # Modelling the impact of military spending escalation on global greenhouse gas emissions
 
-This repository accompanies the paper **“Modelling the impact of military spending escalation on global greenhouse gas emissions”**. The paper develops a reduced-form macro-emissions model linking military expenditure (as a share of GDP), global GDP growth, sector-specific decarbonisation rates, and an elasticity between military burden and broader emissions. It simulates four military-spending pathways—baseline (S0), NATO-only escalation to 3.5% of GDP (S1), coordinated escalation to 3.5% in NATO and non-NATO blocs (S2), and NATO to 5% with non-NATO to 3.5% (S3)—under a wide sensitivity grid. In the paper’s central case, coordinated escalation substantially increases annual and cumulative military emissions, with the strongest escalation scenario (S3) capable of pushing cumulative military emissions to more than the remaining 1.5°C carbon budget by 2050. fileciteturn2file1L1-L18
+This repository contains the code needed to reproduce the paper **“Modelling the impact of military spending escalation on global greenhouse gas emissions”**. The paper develops a reduced-form macro-emissions model linking military expenditure (as a share of GDP), global GDP growth, sector-specific decarbonisation rates, and an elasticity between military burden and broader emissions. It simulates four military-spending pathways: baseline (S0), NATO-only escalation to 3.5% of GDP (S1), coordinated escalation to 3.5% in NATO and non-NATO blocs (S2), and NATO to 5% with non-NATO to 3.5% (S3).
 
 ## Repository contents
 
-- `military_emissions_model.py` — core simulation script. It runs the full parameter grid and writes three CSV files: `generated_data_2025-2035.csv`, `generated_data_2025-2050.csv`, and `data_budgets_2050.csv`. fileciteturn3file19L1-L10 fileciteturn3file4L19-L39
-- `plot_absolute_fig_1_and_fig_s1.py` — generates **Fig_1** and **Fig_S1** from `generated_data_2025-2035.csv`. These correspond to absolute military GHG emissions in 2025–2035. fileciteturn1file5L1-L8 fileciteturn3file17L57-L83
-- `plot_share_fig_2_and_fig_s2.py` — generates **Fig_2** and **Fig_S2** from `generated_data_2025-2035.csv`. These show the military share of global GHG emissions in 2025–2035. fileciteturn1file11L1-L8 fileciteturn3file5L15-L40
-- `plot_cumulative_fig_3_and_fig_s3.py` — generates **Fig_3** and **Fig_S3** from `generated_data_2025-2050.csv`. These show cumulative military emissions to 2050. fileciteturn3file3L1-L8
-- `plot_efficiency_fig_4.py` — generates **Fig_4**, a break-even plot asking whether military-side decarbonisation can offset burden escalation. It saves `Fig_4.pdf` and `Fig_4.png`. fileciteturn3file12L45-L88
-- `plot_budget_fig_5_and_fig_s5.py` — generates **Fig_5** and **Fig_S5** from `generated_data_2025-2050.csv`. These show carbon-budget depletion by 2050. fileciteturn1file1L1-L6 fileciteturn3file7L13-L39
-- `plot_pathways_fig_6.py` — generates **Fig_6** from `generated_data_2025-2050.csv` and the AR6 scenario database file described below. It overlays selected model pathways on AR6 SSP reference pathways and climate-category bands. fileciteturn3file2L1-L40 fileciteturn3file8L1-L39
-- `GHG_militaries_lancet_JSM.pdf` — manuscript version of the paper. fileciteturn2file1L1-L18
+- `military_emissions_model.py` — core simulation script. It runs the full parameter grid and writes three CSV files: `generated_data_2025-2035.csv`, `generated_data_2025-2050.csv`, and `data_budgets_2050.csv`.
+- `plot_absolute_fig_1_and_fig_s1.py` — generates **Fig_1** and **Fig_S1** from `generated_data_2025-2035.csv`. These correspond to absolute military GHG emissions in 2025–2035.
+- `plot_share_fig_2_and_fig_s2.py` — generates **Fig_2** and **Fig_S2** from `generated_data_2025-2035.csv`. These show the military share of global GHG emissions in 2025–2035.
+- `plot_cumulative_fig_3_and_fig_s3.py` — generates **Fig_3** and **Fig_S3** from `generated_data_2025-2050.csv`. These show cumulative military emissions to 2050.
+- `plot_efficiency_fig_4.py` — generates **Fig_4**, a break-even plot asking whether military-side decarbonisation can offset burden escalation. It saves `Fig_4.pdf` and `Fig_4.png`.
+- `plot_budget_fig_5_and_fig_s5.py` — generates **Fig_5** and **Fig_S5** from `generated_data_2025-2050.csv`. These show carbon-budget depletion by 2050. 
+- `plot_pathways_fig_6.py` — generates **Fig_6** from `generated_data_2025-2050.csv` and the AR6 scenario database file described below. It overlays selected model pathways on AR6 SSP reference pathways and climate-category bands.
 
 ## Requirements
 
@@ -25,7 +24,7 @@ source .venv/bin/activate  # On Windows: .venv\\Scripts\\activate
 pip install numpy pandas matplotlib openpyxl
 ```
 
-**Python 3.10+ is recommended.** Several scripts use modern type-hint syntax such as `list[float] | None`, which is not compatible with older Python 3.8 interpreters. fileciteturn1file5L9-L16 fileciteturn1file11L9-L16
+**Python 3.10+ is recommended.** Several scripts use modern type-hint syntax such as `list[float] | None`, which is not compatible with older Python 3.8 interpreters.
 
 ## How to run the model
 
