@@ -20,7 +20,7 @@ A safe setup is:
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-pip install numpy pandas matplotlib openpyxl```
+pip install numpy pandas matplotlib openpyxl´´´
 
 ## Repository contents
 
