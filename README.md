@@ -36,6 +36,9 @@ pip install numpy pandas matplotlib openpyxl
 - `plot_efficiency_fig_4.py` — Fig. 4
 - `plot_budget_fig_5_and_fig_s5.py` — Fig. 5 and Fig. S5
 - `plot_pathways_fig_6.py` — Fig. 6
+- `data.rar` — archive containing the main data files, including:
+  - the three model outputs: `generated_data_2025-2035.csv`, `generated_data_2025-2050.csv` and `generated_data_budgets_2050.csv`.
+  - and the supplementary spreadsheet containing the IMF World Economic Outlook GDP inputs used to derive **world GDP**, **total NATO GDP**, and the **NATO share of world GDP** for 2024 and 2025.
 
 ## How to run
 
