@@ -2,6 +2,26 @@
 
 This repository contains the code needed to reproduce the paper **“Modelling the impact of military spending escalation on global greenhouse gas emissions”**. The paper develops a reduced-form macro-emissions model linking military expenditure (as a share of GDP), global GDP growth, sector-specific decarbonisation rates, and an elasticity between military burden and broader emissions. It simulates four military-spending pathways: baseline (S0), NATO-only escalation to 3.5% of GDP (S1), coordinated escalation to 3.5% in NATO and non-NATO blocs (S2), and NATO to 5% with non-NATO to 3.5% (S3).
 
+## Requirements
+
+The codebase requires **Python 3.10+**.
+
+The main external dependencies are:
+
+- `numpy` for numerical calculations
+- `pandas` for loading, transforming, and saving tabular data
+- `matplotlib` for figure generation
+- `openpyxl` for reading the Excel metadata file used by `plot_pathways_fig_6.py` through `pandas`
+
+Some scripts also rely on Python standard-library modules such as `pathlib`, `itertools`, `zipfile`, and `io`, which do not need to be installed separately.
+
+A safe setup is:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install numpy pandas matplotlib openpyxl
+
 ## Repository contents
 
 - `military_emissions_model.py` — runs the full simulation grid and writes:
