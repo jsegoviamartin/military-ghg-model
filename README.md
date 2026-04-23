@@ -1,6 +1,6 @@
 # Modelling the impact of military spending escalation on global greenhouse gas emissions
 
-This repository contains the code needed to reproduce the paper **“Modelling the impact of military spending escalation on global greenhouse gas emissions”**. The paper develops a reduced-form macro-emissions model linking military expenditure (as a share of GDP), global GDP growth, sector-specific decarbonisation rates, and an elasticity between military burden and broader emissions. It simulates four military-spending pathways: baseline (S0), NATO-only escalation to 3.5% of GDP (S1), coordinated escalation to 3.5% in NATO and non-NATO blocs (S2), and NATO to 5% with non-NATO to 3.5% (S3).
+This repository contains the code needed to reproduce the results in the study **“Modelling the impact of military spending escalation on global greenhouse gas emissions”**. The study develops a reduced-form macro-emissions model linking military expenditure (as a share of GDP), global GDP growth, sector-specific decarbonisation rates, and an elasticity between military burden and broader emissions. It simulates four military-spending pathways: baseline (S0), NATO-only escalation to 3.5% of GDP (S1), coordinated escalation to 3.5% in NATO and non-NATO blocs (S2), and NATO to 5% with non-NATO to 3.5% (S3).
 
 ## Requirements
 
