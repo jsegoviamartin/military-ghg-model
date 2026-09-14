@@ -1,0 +1,6 @@
+input,"Annual military emissions, 2035","Military share, 2035","Cumulative military emissions, 2025-2050"
+Baseline military-emissions share,0.663 (0.221),1.361 (0.431),16.466 (6.216)
+GDP growth,0.339 (0.150),0.000 (0.000),10.794 (6.106)
+"Military decarbonisation, d_m",-0.358 (0.152),-0.693 (0.271),-11.275 (6.030)
+"Rest-of-economy decarbonisation, d_r",0.000 (0.000),0.701 (0.286),0.000 (0.000)
+Spillover elasticity,0.000 (0.000),-0.059 (0.062),0.000 (0.000)

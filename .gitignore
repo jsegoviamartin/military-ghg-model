@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+
+# Local revision and runtime material (not part of the public model release)
+tmp/
+archive/
+Reviewer's comments/
+manuscript/
+tools/
+
+# Manuscript previews are local only
+output/pdf/lancet-template-clean.pdf
+output/pdf/manual-previews/
+output/three_sensitivity_analyses/Combined/Fig_1_readable.*
