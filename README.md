@@ -9,16 +9,11 @@ figures. The manuscript and peer-review working files are not included.
 
 ## Model scenarios
 
-Military burden is military expenditure as a share of GDP. Each escalation
-path follows a normalised logistic transition from its 2025 value to its 2035
-target and remains at the target through 2050.
-
-| Scenario | NATO burden in 2035 | Non-NATO burden in 2035 |
-|---|---:|---:|
-| S0: benchmark | Holds at 2025 value | Holds at 2025 value |
-| S1: NATO-only escalation | 3.5% | Holds at 2025 value |
-| S2: coordinated escalation | 3.5% | 3.5% |
-| S3: further escalation | 5.0% | 3.5% |
+Military burden is military expenditure as a share of GDP.
+- S0 — Benchmark: both blocs remain at their 2025 values.
+- S1 — NATO-only escalation: NATO increases to 3.5%; non-NATO remains at its 2025 value.
+- S2 — Coordinated escalation: both blocs increase to 3.5%.
+- S3 — Further escalation: NATO increases to 5.0%; non-NATO increases to 3.5%.
 
 The complete factorial grid varies:
 
