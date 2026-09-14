@@ -1,11 +1,6 @@
 # Military GHG Model
 
-Reproducible Python implementation of a deterministic, scenario-based
-macro-emissions model linking military expenditure, real GDP growth,
-military and rest-of-economy emissions-intensity reductions, and a reduced-form
-spillover elasticity. The repository contains the model code, input datasets,
-country mapping, generated results, sensitivity analyses, and publication
-figures. The manuscript and peer-review working files are not included.
+This repository contains a deterministic, scenario-based model examining how alternative military-expenditure trajectories influence annual and cumulative military GHG emissions, the military share of global emissions, and remaining carbon budgets under different economic-growth and decarbonisation assumptions. It includes the model code, input data, country mappings, generated results, sensitivity analyses, and figures.
 
 ## Model scenarios
 
