@@ -55,7 +55,7 @@ large. Clone with Git LFS enabled (`git lfs install`) to retrieve them.
 | File | Source | Use |
 |---|---|---|
 | `1668008312256-AR6_Scenarios_Database_World_v1.1.csv.zip` | [IPCC AR6 Scenario Explorer release 1.1](https://doi.org/10.5281/zenodo.5886911) | World GDP and GHG pathways for SA1 and SA2 |
-| `ssp_basic_drivers_release_3.2_full.xlsx` | [SSP Basic Drivers v3.2](https://ssp.apps.ece.iiasa.ac.at/documentation/basic-drivers) | Country-level GDP paths used to construct evolving bloc shares in SA2 |
+| `ssp_basic_drivers_release_3.2_full.xlsx` | [SSP Basic Drivers v3.2](https://ssp.apps.ece.iiasa.ac.at/documentation/basic-elements) | Country-level GDP paths used to construct evolving bloc shares in SA2 |
 | `IMF_WEO_PPP_2025.csv` | [IMF World Economic Outlook database](https://data.imf.org/en/Data-Explorer?datasetUrn=IMF.RES:WEO) | 2025 PPP world GDP and NATO/non-NATO recalibration for SA3 |
 | `nato_members_2025.csv` | NATO membership in the 2025 model baseline | Explicit 32-member ISO3 mapping; all other countries form the non-NATO residual |
 
